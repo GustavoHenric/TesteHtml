@@ -9,8 +9,25 @@
 <body>
     
      <main>
-        <h2>Faça seu login</h2>
-        <p>sdfa</p>
+        <section id="loging">
+            <div id="formulario">
+            <h2>Faça seu login</h2>
+            <form action="cadastro.js" method="post">
+                <div name="campo" id="log">
+                    <label for="isu">Usuário</label>
+                    <input type="text" id="isu" name="su" required>
+                </div>
+                <div name="campo" id="pass">
+                    <label for="ise">Senha</label>
+                    <input type="password" name="se" id="ise">
+                </div>
+                <input type="submit" value="Entrar" id="submit">
+            </form>
+            </div>
+            <div id="cadastro">
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>
+        </section>
         
      </main>
     
