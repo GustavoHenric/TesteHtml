@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaquery.css">
     <title>Teste 1</title>
 </head>
 <body>
@@ -15,11 +16,16 @@
             <form action="cadastro.js" method="post">
                 <div name="campo" id="log">
                     <label for="isu">Usuário</label>
-                    <input type="text" id="isu" name="su" required>
+                    <input type="text" id="isu" name="se" required placeholder="Digite seu Usuário" maxlength="50" autocomplete="username">
+                    <img src="images/user.svg" alt="Username" id="icon">
                 </div>
-                <div name="campo" id="pass">
+                <div name="campo" id="log">
                     <label for="ise">Senha</label>
-                    <input type="password" name="se" id="ise">
+                    <input type="password" name="se" id="ise" required  minlength="8"  maxlength="30" placeholder="Digite sua senha" autocomplete="current-password">
+                    <img src="images/visibility_off.svg" alt="mostrar senha" onclick="eyeShow()" id="btn-pass">
+                </div>
+                <div id="forget">
+                <a href="#" id="forget">Esqueci minha senha</a>
                 </div>
                 <input type="submit" value="Entrar" id="submit">
             </form>
@@ -31,5 +37,8 @@
         
      </main>
     
+
+<script src="main.js"></script>
+
 </body>
 </html>
