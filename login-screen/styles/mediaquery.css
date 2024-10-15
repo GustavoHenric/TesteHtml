@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    section#loging{
+        width: 350px;
+        height: 430px;
+    }
+    section#loging > div#formulario{
+        padding-top: 40px;      
+    }
+
+    div#log{
+    
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    div#forget {
+        width: 43%;
+    }
+
+    form > input#submit{
+        margin-top: 25px;
+        padding: 15px;
+        width: 250px;
+        left: 11%;
+        font-size: 1.1em;
+        border-radius: 10px;
+
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    section#loging{
+        width: 450px;
+        height: 500px;
+    }
+    section#loging > div#formulario{
+        padding-top: 50px;      
+    }
+
+    div#log{
+    
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    div#forget {
+        width: 35%;
+    }
+
+    form > input#submit{
+        margin-top: 45px;
+        margin-bottom: 20px;
+        padding: 16px;
+        width: 325px;
+        left: 11%;
+        font-size: 1.1em;
+        border-radius: 10px;
+
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

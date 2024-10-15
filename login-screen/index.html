@@ -12,22 +12,22 @@
      <main>
         <section id="loging">
             <div id="formulario">
-            <h2>Faça seu login</h2>
+            <h2 alt="Faça seu login abaixo">Faça seu login</h2>
             <form action="cadastro.js" method="post">
                 <div name="campo" id="log">
                     <label for="isu">Usuário</label>
-                    <input type="text" id="isu" name="se" required placeholder="Digite seu Usuário" maxlength="50" autocomplete="username">
-                    <img src="images/user.svg" alt="Username" id="icon">
+                    <input type="text" id="isu" name="se" required placeholder="Digite seu Usuário" maxlength="50" autocomplete="username" alt="Insira seu usuário">
+                    <img src="images/user.svg" alt="Username icon" id="icon">
                 </div>
                 <div name="campo" id="log">
                     <label for="ise">Senha</label>
                     <input type="password" name="se" id="ise" required  minlength="8"  maxlength="30" placeholder="Digite sua senha" autocomplete="current-password">
-                    <img src="images/visibility_off.svg" alt="mostrar senha" onclick="eyeShow()" id="btn-pass">
+                    <img src="images/visibility_off.svg" alt="Insira sua senha" onclick="eyeShow()" id="btn-pass">
                 </div>
                 <div id="forget">
-                <a href="#" id="forget">Esqueci minha senha</a>
+                <a href="#" id="forget" alt="Esqueci minha senha">Esqueci minha senha</a>
                 </div>
-                <input type="submit" value="Entrar" id="submit">
+                <input type="submit" value="Entrar" id="submit" alt="Entrar">
             </form>
             </div>
             <div id="cadastro">
