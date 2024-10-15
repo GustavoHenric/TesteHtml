@@ -93,6 +93,10 @@ div#log > img#btn-pass {
     top: 50%;
 }
 
+div.remember-me {
+   display: none;
+}
+
 div#forget {
     margin-bottom: 10px;
     width: 57%;

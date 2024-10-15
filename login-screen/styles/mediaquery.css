@@ -4,7 +4,7 @@
 @media only screen and (min-width: 768px) {
     section#loging{
         width: 350px;
-        height: 430px;
+        height: 410px;
     }
     section#loging > div#formulario{
         padding-top: 40px;      
@@ -16,12 +16,62 @@
         margin-bottom: 10px;
     }
 
+    div.remember-me {
+        margin-left: 18px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        text-shadow: 1px 1px 0px rgba(8, 2, 2, 0.418);
+        
+        
+    }
+    div.remember-me > label {
+        cursor: pointer;
+    }
+
+    div.remember-me > label > input{
+        -webkit-appearance: none;
+        background-color: rgba(0, 0, 0, 0.24);
+        width: 28px;
+        height: 14px;
+        margin-right: 8px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+        transition: 0.5s;
+        position: relative;
+        cursor: pointer;
+        
+    }
+
+    div.remember-me > label > input:checked{
+        background-color: #68bbf3;
+    }
+
+    div.remember-me > label > input:before{
+        content: '';
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        border-radius: 20px;
+        top: 0;
+        left: 0;
+        background: #fff;
+        transform: scale(1.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+        transition: .5s;
+    }
+
+    div.remember-me > label > input:checked:before{
+        left: 14px;
+    }
     div#forget {
-        width: 43%;
+        width: 41%;
     }
 
     form > input#submit{
-        margin-top: 25px;
+        margin-top: 15px;
         padding: 15px;
         width: 250px;
         left: 11%;
@@ -37,7 +87,7 @@
 
     section#loging{
         width: 450px;
-        height: 500px;
+        height: 470px;
     }
     section#loging > div#formulario{
         padding-top: 50px;      
@@ -49,12 +99,58 @@
         margin-bottom: 10px;
     }
 
+    div.remember-me {
+        margin-left: 25px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        text-shadow: 1px 1px 0px rgba(8, 2, 2, 0.418);
+        
+    }
+
+    div.remember-me > label > input{
+        -webkit-appearance: none;
+        background-color: rgba(0, 0, 0, 0.24);
+        width: 36px;
+        height: 18px;
+        margin-right: 8px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+        transition: 0.5s;
+        position: relative;
+        
+    }
+
+    div.remember-me > label > input:checked{
+        background-color: #68bbf3;
+    }
+
+    div.remember-me > label > input:before{
+        content: '';
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-radius: 20px;
+        top: 0;
+        left: 0;
+        background: #fff;
+        transform: scale(1.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+        transition: .5s;
+    }
+
+    div.remember-me > label > input:checked:before{
+        left: 18px;
+    }
+
     div#forget {
         width: 35%;
     }
 
     form > input#submit{
-        margin-top: 45px;
+        margin-top: 25px;
         margin-bottom: 20px;
         padding: 16px;
         width: 325px;
